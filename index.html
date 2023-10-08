@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <script src ="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
     <div class="calculator-body">
         <div class="calculator-display">
-            =============
+            <div class="display-background"></div>
         </div>
+        
         <div class="calculator-operators">
+            <button class="clear">CLEAR</button>
+            <button class="delete">DELETE</button><br>
             <button class="add">+</button>
             <button class="subtract">-</button>
             <button class="divide">/</button>
             <button class="multiply">*</button>
+            <button class="equals">=</button>
+            <button class="point">.</button>
         </div>
         <div class="calculator-numbers">
             <button class="one">1</button>

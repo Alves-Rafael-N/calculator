@@ -11,3 +11,12 @@ body{
     align-items: center;
     justify-content: center;
 }
+.calculator-body{
+    background-color: #84A7A1;
+    height: 400px;
+    width: 300px;
+}
+.calculator-display{
+    background-color: #1F6E8C;
+    height: 40px;
+}
